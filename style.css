@@ -1,0 +1,225 @@
+html {
+    background-image: linear-gradient(#FC5E55,#FA4083);
+
+}
+body {
+    background-image: url("../project/images/image-lion-background.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family:sans-serif;
+    color: white;
+    font-size: 1.125rem;
+    
+}
+.cont {
+    width: 1024px;
+    /*background-color: rgba(61, 4, 12, 0.267);*/
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+header {
+    min-width: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgrey;
+
+}
+
+main {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    
+}
+.main2 {
+    min-height: 300px;
+    padding-top: 50px;
+}
+.inner1 {
+    flex: 2;
+   
+}
+
+
+
+/*.divide {
+    display: flex;
+    background-color: black;
+    min-height: 300px;
+    
+}*/
+
+.divide1 {
+    flex:2;
+    padding-right: 100px;
+ 
+    
+    
+    
+}
+.divide2 {
+    flex: 1;
+    
+    
+   
+    
+}
+.cards {
+    
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+.card1 {
+    background-image: url("../project/images/image-background-card1.jpg");
+    min-height: 250px;
+    width: 30%;
+    background-size: cover;
+    background-position: bottom;
+   
+    
+    
+    
+    
+}
+.card2 {
+    background-image: url("../project/images/image-background-card2.jpg");
+    min-height: 250px;
+    width: 30%;
+    background-size: cover;
+    background-position: bottom;
+   
+    
+    
+}
+.card3 {
+    background-image: url("../project/images/image-background-card3.jpg");
+    min-height: 250px;
+    width: 30%;
+    background-size: cover;
+    background-position: bottom;
+   
+   
+}
+.card1,.card2,.card3 {
+    box-sizing: border-box;/*box sizing in css allows us to include the padding and border of the element's in its total width and height*/ 
+    /*border-radius: 10px;*/   
+}
+h1 {
+    margin-bottom: 1rem;
+    font-family: 'Playfair Display', serif;
+    font-size: 3.25rem;
+    font-weight:bold;
+    text-shadow: 0px 2px 2px black;
+    /*16px=1rem*/
+}
+h2 {
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    margin-top: 10px;
+}
+p {
+    line-height: 1.5rem;
+    margin-bottom: 0.5rem;
+    
+   
+}
+.cards p {
+    font-size: 1rem;
+    line-height: 1rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+   
+}
+.cards img {
+    margin-top: 10px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.mybutton {
+    background-color: white;
+    color: #FC5E55;
+    font-family: 'Playfair Display', serif;
+    padding: 11px 25px 11px 25px;
+    display: inline-block;
+    margin-top: 10px;
+    /*border-radius: 0px 1000px 1000px 0px;*/
+    /*box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.555);*/
+}
+.mybutton:hover{
+    background-color: aqua;
+    transition-duration: 1s;
+}
+/*.divide2 img {
+    border-radius: 10px;
+}*/
+.navbutton {
+    border-style:solid;
+    border-width:1px;
+    font-family: 'Playfair Display', serif;
+    padding: 10px 20px 10px 20px;
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    
+}
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.tbox {
+    width: 47%;
+    border: 1px solid white;
+    padding:50px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+/*.tbox :last-child {
+    font-size: 0.8rem;
+    padding-left: 30px; or below one or use nth type.
+}*/
+.tbox p:last-of-type {
+    font-size: 0.8rem;
+    padding-left: 30px;
+}
+.dropdown {
+    display: none;
+    position: absolute;
+    padding-top: 12px;
+    text-align: center;
+    z-index: 1;
+    
+}
+.navbutton:hover .dropdown {
+    display: block;   
+}
+.dropdown .navbutton  {
+    background-color: white;
+    width: 100px;
+}
+.dropdown .navbutton a {
+    color: #FC5E55;
+    
+}
+.dropdown .navbutton:hover {
+    background-color: black;  
+}
+.dropdown .navbutton a:hover {
+    color:white;
+   
+}
+
+
+
